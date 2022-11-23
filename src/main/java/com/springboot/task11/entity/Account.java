@@ -35,4 +35,6 @@ public class Account {
     private Customer customer;
 
     private String FirstName;
+
+    private Integer age;
 }
