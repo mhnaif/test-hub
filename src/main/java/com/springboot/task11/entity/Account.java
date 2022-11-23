@@ -33,4 +33,6 @@ public class Account {
     @ManyToOne(targetEntity = Customer.class,cascade = CascadeType.ALL)
     @JoinColumn(name = "customer_id")
     private Customer customer;
+
+    private String name;
 }
