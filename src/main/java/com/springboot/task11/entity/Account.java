@@ -34,4 +34,8 @@ public class Account {
     @JoinColumn(name = "customer_id")
     private Customer customer;
 
+    public String name;
+    public String phone;
+
+
 }
